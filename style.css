@@ -303,10 +303,24 @@ section .title::after {
 	font-weight: 500;
 	margin: 10px 0 7px 0;
 }
-.interests .serv-content .card .box img {
-	width: 25%;
-	background-color: rgb(181, 0, 252);
+.interests .serv-content .card .box .dlicon{
+	position: relative;
+	left: 4.5rem;
+	width: 4rem;
+	height: 4rem;
+	background: url("images/int2.png") no-repeat;
+	transform: scale(1.05);
 }
+/* .interests .serv-content .card .box img {
+	width: 4rem;
+	height: 4rem;
+}*/
+.interests .serv-content .card:hover .dlicon {
+	background: url("images/int1.png") no-repeat;
+	transform: scale(1.1);
+	/* width: 4rem;
+	height: 4rem; */
+} 
 
 /* skills section styling */
 

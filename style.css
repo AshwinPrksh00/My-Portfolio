@@ -304,8 +304,7 @@ section .title::after {
 	margin: 10px 0 7px 0;
 }
 .interests .serv-content .card .box .dlicon{
-	position: relative;
-	left: 4.5rem;
+	display: inline-block;
 	width: 4rem;
 	height: 4rem;
 	background: url("images/int2.png") no-repeat;
@@ -644,6 +643,9 @@ footer span .social a:nth-child(2):hover {
 	.about .about-content .right .text,
 	.skills .skills-content .left .text {
 		font-size: 19px;
+	}
+	.about .title::after {
+		width: max-content;
 	}
 	.contact .right form .fields {
 		flex-direction: column;
